@@ -1,0 +1,25 @@
+{
+  "name": "ie8-manglotron",
+  "version": "0.0.1",
+  "description": "Stupid static file server that mangles JS to make it easier to debug on IE8.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.2.4",
+    "esprima": "1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toolness/ie8-manglotron.git"
+  },
+  "keywords": [
+    "stupid",
+    "ie8"
+  ],
+  "author": "Atul Varma <varmaa@gmail.com>",
+  "license": "BSD"
+}
