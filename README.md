@@ -1,5 +1,5 @@
-This is a stupid static file server that mangles JS to make it easier to
-debug on IE8.
+This is a stupid static file server that mangles JS with [esprima][] and
+[falafel][] to make it easier to debug on IE8.
 
 Specifically, it:
 
@@ -24,5 +24,7 @@ At this point you can run the `server.js` script via `node` from any
 directory on your filesystem, and it will statically serve files in that 
 directory, mangling any outbound JS.
 
+  [esprima]: http://esprima.org/
+  [falafel]: https://github.com/substack/node-falafel
   [nunjucks]: http://nunjucks.jlongster.com/
   [work on IE8]: https://github.com/jlongster/nunjucks/pull/75
