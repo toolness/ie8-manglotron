@@ -1,5 +1,5 @@
-This is a stupid static file server that mangles JS with [esprima][] and
-[falafel][] to make it easier to debug on IE8.
+This is a stupid static file server that instruments JS with
+[esprima][] and [falafel][] to make debugging easier on IE8.
 
 Specifically, it:
 
