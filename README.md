@@ -9,7 +9,7 @@ Specifically, it:
   throwing an exception).
 * Performs its own stack tracing to provide decent tracebacks.
 
-I used this to get [nunjucks][] to [work on IE8][]. Perhaps it can be
+I made this to get [nunjucks][] to [work on IE8][]. Perhaps it can be
 used by others in the future.
 
 Apologies for the horrible code and complete absence of tests.
